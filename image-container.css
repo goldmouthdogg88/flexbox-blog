@@ -1,0 +1,31 @@
+.image-container img {
+}
+
+.img {
+  margin: 5px;
+
+  align-self: center;
+  align-self: top;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  justify-content: space-between;
+  width: 200px;
+  flex-direction: column;
+}
+
+.image-container > img {
+  flex: 1;
+}
+
+.image-container > .img1 {
+  flex: 1;
+}
+
+.img1 {
+  width: 200px;
+  height: 300px;
+}
